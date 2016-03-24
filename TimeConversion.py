@@ -1,7 +1,7 @@
 #!/bin/python
 
 # Convert AM/PM Time to Military (24h) time
-# Input format ex: 07:05:45PM
+# https://www.hackerrank.com/challenges/time-conversion
 import sys
 
 time = raw_input().strip()
