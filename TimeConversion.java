@@ -1,5 +1,5 @@
 // Convert AM/PM Time to Military (24h) time
-// Input format ex: 07:05:45PM
+// https://www.hackerrank.com/challenges/time-conversion
 import java.util.*;
 
 public class TimeConversion {
