@@ -2,7 +2,7 @@
 //https://www.hackerrank.com/challenges/simple-array-sum
 import java.util.*;
 
-public class ArraySum {
+public class SimpleArraySum {
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
