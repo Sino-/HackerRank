@@ -15,7 +15,7 @@ function repeatedString(s, n) {
             letterA++;
         }
     }
-    
+
     //edge case if n is less than string length
     if (nLessThanS) {
         return letterA;
@@ -24,13 +24,11 @@ function repeatedString(s, n) {
     let remainingLetters = n % s.length - 1;
     let remainder = 0;
 
-    if (remainingLetters >= 0) {
-        while (remainingLetters >= 0) {
-            if (s.charAt(remainingLetters) === 'a') {
-                remainder++;
-            }
-            remainingLetters--;
+    while (remainingLetters >= 0) {
+        if (s.charAt(remainingLetters) === 'a') {
+            remainder++;
         }
+        remainingLetters--;
     }
 
     const multiplier = Math.floor(n / s.length);
